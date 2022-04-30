@@ -10,4 +10,4 @@ Instructions
 * To edit scenarios, edit the "monthScenarios.txt" and "dayScenarios.txt" files. They must have 12 lines and 31 lines respectively. You must restart
 the program if you edit the files while the program is open for changes to take effect.
 
-NOTE: This is a branch where I cut out a lot of redundancy and added exception handling.
+NOTE: This is a branch where I cut out a lot of redundancy and added exception handling years after the fact. If you want to see what the code originally looked like, switch to the "master" branch.
