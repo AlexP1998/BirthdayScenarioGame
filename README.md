@@ -1,7 +1,7 @@
 # BirthdayScenarioGame
 Created by Alex Puckett
 
-To download .exe, go to BirthdayScenarioGame/bin/Release/BirthdayScenarioGame.exe and click "raw". Also click "monthScenarios.txt" and "dayScenarios.txt" 
+To download .exe, go to BirthdayScenarioGame/bin/Release/BirthdayScenarioGame.exe and click "download". Also click "monthScenarios.txt" and "dayScenarios.txt" 
 and save them in the same directory as "BirthdayScenarioGame.exe" or the program will not work.
 
 Instructions
