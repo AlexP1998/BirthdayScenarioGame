@@ -55,11 +55,19 @@ namespace BirthdayScenarioGame
             }
             inputFile.Close(); //Close the file.
 
-            month = int.Parse(monthTextBox.Text) - 1; //Retrieve value from the month text box.
-            day = int.Parse(dayTextBox.Text) - 1; //Retreive value from the day text box.
+            try
+            {
+                month = int.Parse(monthTextBox.Text) - 1; //Retrieve value from the month text box.
+                day = int.Parse(dayTextBox.Text) - 1; //Retreive value from the day text box.
+                scenario = monthScenarios[month] + dayScenarios[day]; //Create the scenario.
+                scenarioLabel.Text = scenario; //Display the scenario.
+            }
+            catch
+            {
+                MessageBox.Show("Please enter a valid date.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
 
-            scenario = monthScenarios[month] + dayScenarios[day]; //Create the scenario.
-            scenarioLabel.Text = scenario; //Display the scenario.
+
         }
     }
 }
