@@ -135,6 +135,7 @@
             this.Controls.Add(this.generateButton);
             this.Name = "Form1";
             this.Text = "Birthday Scenario Game";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
